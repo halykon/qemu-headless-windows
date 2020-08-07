@@ -45,7 +45,7 @@ Your VM now runs and you can connect to it using any VNC viewer software. Just c
 
 If you are on a remote machine, use SSH to tunnel port 5900 to your machine and connect to localhost aswell
 
-```ssh -L 5900:your-ip-address:5900 your-username@your-ip-address```
+```ssh -L 5900:localhost:5900 your-username@your-ip-address```
 
 # FAQ
 
